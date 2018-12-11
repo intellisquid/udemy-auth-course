@@ -1,4 +1,30 @@
 {
- "name" : "udemy-auth-course",
- "main" : "server.js"
+  "name": "udemy-auth-course",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15",
+    "morgan": "^1.9.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.0",
+  "description": "Udemy course on Jsonwebtoken auth.",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intellisquid/udemy-auth-course.git"
+  },
+  "keywords": [
+    "auth"
+  ],
+  "author": "wshendricks@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intellisquid/udemy-auth-course/issues"
+  },
+  "homepage": "https://github.com/intellisquid/udemy-auth-course#readme"
 }
